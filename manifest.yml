@@ -7,7 +7,7 @@ applications:
   memory: 64M
   routes:
   - route: lab-bluemix-wnm3.us-south.cf.appdomain.cloud
-  disk_quota: 64M
+  disk_quota: 1024M
   buildpacks: 
   - python_buildpack
   timeout: 180
