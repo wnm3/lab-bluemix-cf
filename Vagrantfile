@@ -108,7 +108,7 @@ Vagrant.configure(2) do |config|
     ./install && \
     cd .. && \
     rm -fr Bluemix_CLI/ bluemix-cli.tar.gz && \
-    ibmcloud cf install
+    yes | ibmcloud cf install
     '
 
     # Show completion instructions
